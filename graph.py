@@ -14,12 +14,15 @@ class Graph(object):
 
         
     def neighbors(self,vertex):
-        return []    
+        if self.num_vertices < 2:
+            return []   
+        else: 
+            return self.data
 
     def add_vertex(self,vertex):
         self.num_vertices += 1
         self.data[vertex] = self.neighbors(vertex)
-        
+
     def remove_vertex(self, vertex):
         pass    
 
