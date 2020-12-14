@@ -22,3 +22,6 @@ class Graph(object):
         
     def remove_vertex(self, vertex):
         pass    
+
+    def add_edge(self, pointA, pointB):
+        pass
