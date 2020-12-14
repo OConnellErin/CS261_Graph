@@ -25,3 +25,6 @@ class Graph(object):
 
     def add_edge(self, pointA, pointB):
         pass
+
+    def remove_edge(self, pointA, pointB):
+        pass  
