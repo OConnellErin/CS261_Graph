@@ -20,3 +20,5 @@ class Graph(object):
         self.num_vertices += 1
         self.data[vertex] = self.neighbors(vertex)
         
+    def remove_vertex(self, vertex):
+        pass    
