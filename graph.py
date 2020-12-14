@@ -28,3 +28,6 @@ class Graph(object):
 
     def remove_edge(self, pointA, pointB):
         pass  
+
+    def adjacent(self, pointA, pointB):
+        return False
