@@ -6,11 +6,17 @@
 
 import functools
 
-class Graph:
+class Graph(object):
 
     def __init__(self):
         self.data = {}
+        self.num_vertices = 0
+
         
     def neighbors(self,vertex):
         return []    
 
+    def add_vertex(self,vertex):
+        self.num_vertices += 1
+        self.data[vertex] = self.neighbors(vertex)
+        
